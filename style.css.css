@@ -1,0 +1,56 @@
+body {
+	text-align: center;
+	font-family: montserrat;
+	background-image: url(imagens/imagem1.jpg);
+	background-size: cover;
+	color: white;
+	
+}
+
+h1 {
+	font-size: 100px;
+	padding-top: 300px;
+	text-shadow: 10px 8px 10px pink;
+	margin-bottom: 40px;
+}
+
+
+p {
+	font-size: 35px;
+	text-shadow: 2px 2px 2px rgb(211,52,121);
+	margin-bottom: 40px;
+
+}
+
+
+.botao {
+	text-decoration: none;
+	background-color: rgb(211,52,121);
+	color: pink;
+	font-size: 20px;
+	padding: 15px 15px 15px 15px;
+	border-radius: 20px
+
+
+}
+
+.botao:hover {
+	color: white;
+
+}
+
+.lista {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 60px;
+}
+
+.lista li{
+	display: inline;
+
+}
+
+.lista a {
+	color: rgb(211,52,121);
+	font-size: 50px;
+}
